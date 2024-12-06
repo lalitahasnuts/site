@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сайт</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    #img {
+      transition: transform 0.5s ease; /* Плавный переход */
+    }
+    #img:hover {
+      transform: rotate(360deg); /* Поворот на 360 градусов */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="img-l" src="logo.jpg">
+            <p style="margin-left: 12px;">logo</p>
+        </div>
+        <div>
+            <p class="fio">Группа ЭФБО-03-23</p>
+            <p class="fio">Козловская Лалита Станиславовна</p>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li class="ul-list"><a href="prac.html">
+                    <p class="ul-list">Главная</p>
+                </a></li>
+            <li class="ul-list"><a href="firstsem.html">
+                    <p class="ul-list">Первый семестр</p>
+                </a></li>
+            <li class="ul-list"><a href="#">
+                    <p class="ul-list">Второй семестр</p>
+                </a></li>
+            <li class="ul-list"><a href="usluge.html">
+                    <p class="ul-list">Услуги</p>
+                </a></li>
+            <li class="ul-list"><a href="#">
+                    <p class="ul-list">Авторизация</p>
+                </a></li>
+        </ul>
+    </nav>
+    <section>
+    <aside class="nav2">
+        <nav>
+            <ul>
+                <li style="list-style-type: none;">
+                    <h2>Навигация по странице</h2>
+                </li>
+                <li class="list"><a href="#front">
+                        <p class="list">Фронтенд</p>
+                    </a></li>
+                <li class="list"><a href="#bek">
+                        <p class="list">Бэкенд</p>
+                    </a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <div class="main">
+                <div>
+                <img id="img" class="img" src="https://i.pinimg.com/736x/75/34/6b/75346bbaa9a8a7413b2a73dafef26a77.jpg">
+                <p id="text"></p>
+                </div>
+                <h1 id="hello">Добро пожаловать на мой сайт!</h1>
+                <p id="message"></p>
+                <p>Меня зовут Козловская Лалита и я начинающий специалист по веб
+                    разработке.</p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 id="front" class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Фронтенд
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Фронтенд (или клиентская часть) - это то, что видит пользователь. Он
+                            включает в себя все визуальные элементы веб-сайта или приложения: кнопки, формы, изображения и
+                            текст. Фронтенд разработчики используют языки разметки и стилизации, такие как HTML, CSS и
+                            JavaScript, чтобы создавать интерактивные и привлекательные интерфейсы. Основная задача
+                            фронтенда - обеспечить удобство использования и эстетическую привлекательность.
+                        </div>
+                      </div>
+                    </div>
+                <div class="video">
+                    <iframe src="https://vk.com/video_ext.php?oid=-203677279&id=456240365&hd=2&autoplay=1" 
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h2 id="bek">Бэкенд</h2>
+                <p id="p">Бэкенд (или серверная часть)&nbsp;&mdash; это
+                    &laquo;за&nbsp;кулисами&raquo; <nobr>веб-приложения</nobr>. Он
+                    отвечает за&nbsp;обработку данных, управление пользователями и&nbsp;взаимодействие
+                    с&nbsp;базами данных. Бэкенд разработчики используют языки программирования,
+                    такие как Python, Ruby, Java или <acronym title="Hypertext Preprocessor"
+                        lang="en">PHP</acronym>, а&nbsp;также фреймворки и&nbsp;базы данных
+                    для создания логики приложения. Основная задача бэкенда&nbsp;&mdash; обеспечить
+                    стабильную работу приложения и&nbsp;безопасность данных.</p>
+                <div class="video">
+                    <iframe src="https://vk.com/video_ext.php?oid=-211232966&id=456239610&hd=2&autoplay=1" 
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+    <footer>
+        <p>© Козловская Лалита Станиславовна, 2024</p>
+    </footer>
+    <script>
+        //изменение h1
+        const h1 = document.querySelector('h1');
+        if (h1) {
+            h1.textContent = 'Добро пожаловать на наш сайт!'
+        }
+        //изменение цвета h2 на красный 
+        const h2 = document.querySelector('h2');
+        if (h2) {
+            h2.style.color = 'red';
+        }
+        //изменение текста
+        const first = document.getElementById("collapseOne");
+        if (first) {
+            first.textContent = 'Это новый текст параграфа.'
+        }
+        //скрытие видео
+        const embeddedVideos = document.querySelectorAll('iframe');
+        for (let i = 0; i < embeddedVideos.length; i++) {
+            if (embeddedVideos[i]) {
+                embeddedVideos[i].style.display = 'none';
+            }
+        }
+        //13.1
+        const h = document.getElementById('hello');
+        const message = document.getElementById('message');
+
+        h.addEventListener('click', () => {
+            message.textContent = 'Вы кликнули на заголовок - так держать!';
+        });
+        //13.3
+        const img = document.getElementById('img');
+        /*
+        img.addEventListener('mouseover', () => {
+            img.style.width = '20em';
+            img.style.height = '20em';
+        });
+        img.addEventListener('mouseout', () => {
+            img.style.width = '15em';
+            img.style.height = '15em';
+        });*/
+        const img2 = "тоша.jpg"
+        img.addEventListener('click', () => {
+            img.src = img2;
+        });
+        //13.4
+        const text = document.getElementById('text');
+        img.addEventListener('dblclick', () => {
+            text.textContent = 'Не налегай, у меня слишком много его фоток, чтоб вставлять все)';
+        });
+        //14.1
+        h1.addEventListener('mouseover', () => {
+            h1.style.fontSize = '25px';
+        });
+        h1.addEventListener('mouseout', () => {
+            h1.style.fontSize = '20px';
+        });
+        //14.2
+        const p = document.getElementById('p')
+        p.addEventListener('click', () => {
+            p.style.backgroundColor = 'pink';
+        });
+    </script>
+</body>
+</html>

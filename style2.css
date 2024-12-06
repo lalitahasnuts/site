@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.ul-list{
+color: black;
+display: inline-block;
+margin: 5px; 
+}
+.ul-list:hover{
+ color: #f652f6; 
+}
+.ul-list:active{
+    color: #379dcc;
+}
+.list{
+color: black;
+margin: 5px;
+list-style-type: none;
+}
+.list:hover{
+ color: #f652f6; 
+}
+.list:active{
+    color: #379dcc;
+}
+.img-l{
+    height: 60px;
+    width: 60px; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.nav{
+    border: 1px solid black;
+    position: sticky; top: 0;
+    z-index: 1;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+}
+main{
+    border: 1px solid black;
+    width: 1500px;
+}
+aside{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+aside nav{
+    padding-right: 30px;
+}
+.img{
+    height: 600px;
+    float: right;
+}
+footer{
+    border: 1px solid black;
+}
+footer p{
+    text-align: center;
+}
+.kvadr{
+    width: 200px;
+    height: 200px;
+}
+.kv-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.text{
+    height: 100px;
+}
+.kv{
+    display: grid;
+    gap:50px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, 250px);
+}
+.sayt{
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+}
+.ob{
+    border-radius: 10px;
+    box-shadow: 10px 7.5px 7.5px gray;
+    margin-left: 50px;
+}
+#modal{
+    display: none;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: white;
+    z-index: 1;
+}
+.modal-wrapper{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+input{
+    margin: 5px 0;
+}
+.openModal{
+    background-color: white;
+    border-radius: 7px;
+}
+.openModal:hover{
+    background-color: #f37bf3;
+}
+.openModal:active{
+    background-color: #379dcc;
+}
+.modalbutton{
+    border-radius: 10px;
+    background-color: white;
+}
+.modalbutton:hover{
+ background-color: #f652f6; 
+}
+.modalbutton:active{
+    background-color: #379dcc;
+}
+
+#message {
+    transition: color 0.5s ease, opacity 0.5s ease; /* Добавлена анимация */
+    opacity: 0;
+    color: transparent;
+  }
+  
+  #message.show {
+    opacity: 1;
+    color: green;
+  }
+
+@media (max-width: 426px)
+{
+    .nav2{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+}

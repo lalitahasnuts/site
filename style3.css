@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    }
+    .ul-list{
+        color: black;
+        display: inline-block;
+        margin: 5px;       
+    }
+    .ul-list:hover{
+         color: #f652f6; 
+    }
+    .ul-list:active{
+            color: #379dcc;
+        }
+    .list{
+        color: black;
+        margin: 5px;
+        list-style-type: none;
+    }
+    .list:hover{
+         color: #f652f6; 
+    }
+    .list:active{
+            color: #379dcc;
+        }
+    .img-l{
+        height: 60px;
+        width: 60px; 
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+    .nav{
+        border: 1px solid black;
+        position: sticky; top: 0;
+        z-index: 1;
+        background-color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    section{
+        display: flex;
+    }
+    main{
+        border: 1px solid black;
+        width: 1500px;
+    }
+    aside{
+        width: 500px;
+        height: auto;
+        border: 1px solid black;
+    }
+    aside nav{
+        padding-right: 30px;
+    }
+    .list{
+        list-style-type: none;
+    }
+    footer{
+        border: 1px solid black;
+        
+    }
+    footer p{
+        text-align: center;
+    }
+    table {
+         width: 600px;
+         border-top: 7px solid black;
+         border-collapse: collapse;
+         text-align: center;
+         margin-bottom: 20px;
+         border: 1px solid black;
+    }
+    #lec{
+        display: none; 
+    }
+    td {
+         text-align: left;
+         padding: 10px;
+    }
+    th {
+         text-align: left;
+         padding: 10px;
+    }
+    tr{
+        background-color: white;
+    }
+    tr:hover:not(:first-of-type){
+        background-color: #f378f3;
+    }
+
+    .modalbutton{
+        height: 50px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .modalbutton:hover{
+     background-color: #f652f6; 
+    }
+    .modalbutton:active{
+        background-color: #379dcc;
+    }
+
+    #showLectures{
+        height: 50px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    #showLectures:hover{
+        background-color: #f652f6; 
+       }
+       #showLectures:active{
+        background-color: #379dcc;
+    }
+    @media (max-width: 426px)
+    {
+        .nav2{
+            display: none;
+        }
+        main{
+            width: 100%;
+        }
+    }

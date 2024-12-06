@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сайт</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <header class="blur">
+        <div>
+            <img class="img-l" src="logo.jpg"> 
+        <p style = "margin-left: 12px;">logo</p>
+        </div>
+        <div>
+        <p>Группа ЭФБО-03-23</p>
+        <p>Козловская Лалита Станиславовна</p>
+        </div>
+        </header>
+        <nav class="nav blur">
+            <ul>
+                <li class="ul-list"><a href="prac.html"><p class="ul-list">Главная</p></a></li>
+                <li class="ul-list"><a href="firstsem.html"><p class="ul-list">Первый семестр</p></a></li>
+                <li class="ul-list"><a href="#"><p class="ul-list">Второй семестр</p></a></li>
+                <li class="ul-list"><a href="usluge.html"><p class="ul-list">Услуги</p></a></li>
+                <li class="ul-list"><a href="#"><p class="ul-list">Авторизация</p></a></li>
+            </ul>
+        </nav>
+        <section class="blur">
+            <aside class="nav2"> 
+                <nav>
+                    <ul>
+                        <li style="list-style-type: none;"><h3>Навигация по странице</h3></li>
+                        <li class="list"><a href="#raz"><p class="list">Разработка веб-приложений</p></a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <main>
+                <h1 class="text" style="margin-left: 10px;" id="raz">Разработка веб-приложений</h1>
+                <div class="kv">
+                <div class="ob"><div class="kvadr"><img class="kv-img" src="тоша.jpg"></div><p class="sayt">Сайт-визика<br><br><br><button class="openModal">Заказать</button></p></div>
+                <div class="ob"><div class="kvadr"><img class="kv-img" src="антон.jpg"></div><p class="sayt">Корпоративный сайт<br><br><button class="openModal">Заказать</button></p></div>
+                <div class="ob"><div class="kvadr"><img class="kv-img" src="шастун.jpg"></div><p class="sayt">Интернет-магазин<br><br><br><button class="openModal">Заказать</button></p></div>
+                </div>
+                <p style="margin-left: 10px;"> Зажигала фонари, торопилась к мальчику
+                    Пусть везёт меня авто да по Москве с мигалочкой
+                    В очереди мёрзнут все на балет "Щелкунчика"
+                    Пока я на дискотэке с миленьким за рученьку
+                    Девки выстроились в ряд, глазки золотом горят
+                    Ленинградское шоссе да оценило б их талант
+                    Я за мир и за добро, но когда оно с баблом
+                    А иначе кто подарит белоснежный автопром?
+                    Снег растаял на плечах новой шубы норковой
+                    Я так горяча, что поднимаю экономику
+                    В лимузине новеньком еду, как на лошади
+                    Поджидает суженый меня на Красной Площади
+                    У кого жених богаче — ярмарка тщеславия
+                    А мне мой парфюм везёт прямо с Югославии
+                    У него не ОПГ, просто группировочка
+                    Будь готов, всегда готов устроить рокировочки
+                    И под громкий бой курантов под моим окном курсанты
+                    Песни мне поют, а генерал их дарит бриллианты
+                    Увезу тебя с собой, прочитаешь домострой
+                    Будешь для меня послушной ты красавицей-женой (не-а)
+                    Снег растаял на плечах новой шубы норковой
+                    Я так горяча, что поднимаю экономику
+                    В лимузине новеньком еду, как на лошади
+                    Поджидает суженый меня на Красной Площади
+                </p>
+            </main>
+        </section>
+    <section id="modal" class="modal-wrapper">
+        <div>
+        <h2>Разработка веб приложений</h2>
+        <p>Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей</p> 
+        <form id="contactForm">
+        <div>
+            <div>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Иванов Иван Иванович" required>
+            </div>
+            <div>
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" placeholder="test@mail.ru" required>
+            </div>
+            <div>
+            <label for="tel">Номер телефона:</label>
+            <input type="tel" id="tel" name="tel" placeholder="+7 919 999 99 99" required>
+            </div>
+            <div>
+            <label for="region">Страна</label>
+            <select name="select-region">
+                <option value="russia">Россия</option>
+                <option value="another">Другое</option>
+            </select>
+            </div>
+            <div>
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+            <label for="comments">Комментарии:</label>
+            <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div style="display: flex;">
+            <input type="checkbox" id="checkbox" name="checkbox" required style="margin-right: 5px;"><p>Согласен на обработку моих персональных данных</p>
+            </div>
+            <div style="display: flex; justify-content: center;">
+            <button type="submit" class="modalbutton">Отправить заявку</button>
+            </div>
+            </div>
+        </form>
+            </div>
+            <div><span class="close">X</span>
+        </div>
+        <p id="message">Форма отправлена!</p>
+    </section>   
+        <footer class="blur"><p>© Козловская Лалита Станиславовна, 2024</p></footer>
+        <script>
+            const modal = document.getElementById("modal");
+            const btn = document.querySelectorAll(".openModal");
+            const span = document.getElementsByClassName("close")[0];
+            const form = document.getElementById("contactForm");
+            const blurredEls = document.getElementsByClassName('blur');
+            // Открываем модальное окно при нажатии на кнопку
+            btn.forEach(el => el.onclick = function() {
+                modal.style.display = 'flex';
+                for (let el of blurredEls) {
+                    el.style.filter = 'blur(2px)';
+                }
+            });
+            // Закрываем модальное окно при нажатии на "X"
+            span.onclick = function() {
+                modal.style.display = "none";
+                for (let el of blurredEls) {
+                    el.style.filter = 'blur(0)';
+                }
+            };
+            // Закрываем модальное окно при клике вне его области
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                    blurredEls.forEach(el=>el.style.filter='blur(0)');
+                }
+            };
+
+            const message = document.getElementById('message');
+
+            form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Предотвращаем стандартную отправку формы
+            message.classList.add('show');
+            setTimeout(() => {
+                message.classList.remove('show');
+            }, 3000); // Скрываем сообщение через 3 секунды
+            });
+        </script>  
+</body>
+</html>
